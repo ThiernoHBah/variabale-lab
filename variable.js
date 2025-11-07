@@ -8,3 +8,11 @@ function fullname(FirstName,LastName) {
 }
 
 
+// task 2
+function calculateTotalCost(Price, Quantity, Taxrate){
+    if(Price, Quantity, Taxrate)
+        return "Wrong Imput";
+        return ( Price * Quantity) * (1+ Taxrate);
+console.log(calculateTotalCost)
+}
+
