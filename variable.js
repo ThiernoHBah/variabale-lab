@@ -16,3 +16,19 @@ function calculateTotalCost(Price, Quantity, Taxrate){
 console.log(calculateTotalCost)
 }
 
+//task 3
+function checkEligibility(age, isEmployed) {
+    if (age <= 18) {
+        return "You have not met the requirement.";
+    } else if (age > 18 && isEmployed) {
+        return "You have met the requirement.";
+    } else {
+        return "You are eligible."
+    }
+}
+
+let userAge = 19;
+let userEmployed = false;
+
+console.log(checkEligibility(userAge, userEmployed));
+
